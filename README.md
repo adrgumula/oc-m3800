@@ -1,4 +1,4 @@
-# oc-m3800
+# Dell m3800 OpenCore
 
 This is a OpenCore EFI folder for Dell m3800 with 4k display screen ready to work with 10.15.6
 [#f03c15]So far that 
