@@ -366,7 +366,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,0,0</string>
@@ -375,7 +375,7 @@
 				<key>model</key>
 				<string>Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,1,0</string>
@@ -384,7 +384,7 @@
 				<key>model</key>
 				<string>Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,20,0</string>
@@ -393,7 +393,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family USB xHCI</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,22,0</string>
@@ -402,7 +402,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family MEI Controller #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1A,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1A,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,26,0</string>
@@ -411,7 +411,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family USB EHCI #2</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0</string>
@@ -420,7 +420,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family PCI Express Root Port #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x2)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,2</string>
@@ -429,7 +429,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family PCI Express Root Port #3</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,2/0,0</string>
@@ -440,7 +440,7 @@
 				<key>model</key>
 				<string>BCM4352 802.11ac Wireless Network Adapter</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x3)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,3</string>
@@ -449,7 +449,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family PCI Express Root Port #4</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,3/0,0</string>
@@ -458,7 +458,7 @@
 				<key>model</key>
 				<string>RTS5249 PCI Express Card Reader</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x4)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,4</string>
@@ -467,7 +467,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family PCI Express Root Port #5</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1D,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,29,0</string>
@@ -476,7 +476,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family USB EHCI #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,0</string>
@@ -485,7 +485,7 @@
 				<key>model</key>
 				<string>HM87 Express LPC Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,2</string>
@@ -494,7 +494,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
@@ -503,7 +503,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family SMBus Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x6)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,6</string>
@@ -523,7 +523,7 @@
 				<key>model</key>
 				<string>Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x4,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,4,0</string>
@@ -541,12 +541,12 @@
 			<dict>
 				<key>#AAPL00,override-no-connect</key>
 				<data>AP///////wBNEDEUAAAAACwYAQSlIxN4Dt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBpqYAoPBwPoAwIDUAWsIQAAAYTdAAoPBwaIIwIDUAAAAAAAAAAAAA/gBUWTNYQ4BMUTE1NkQxAAAAAAACAQMjABIAAAsBCiAgADA=</data>
+				<key>#agdpmod</key>
+				<string>vit9696</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>CAAuCg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
-				<key>agdpmod</key>
-				<string>vit9696</string>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
 				<key>device_type</key>
@@ -585,65 +585,6 @@
 				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel HD Graphics 4600</string>
-			</dict>
-			<key>##PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>#AAPL00,override-no-connect</key>
-				<data>AP///////wBNEDEUAAAAACwYAQSlIxN4Dt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBpqYAoPBwPoAwIDUAWsIQAAAYTdAAoPBwaIIwIDUAAAAAAAAAAAAA/gBUWTNYQ4BMUTE1NkQxAAAAAAACAQMjABIAAAsBCiAgADA=</data>
-				<key>#agdpmod</key>
-				<string>vit9696</string>
-				<key>#dpcd-max-link-rate</key>
-				<data>FAAAAA==</data>
-				<key>#enable-hdmi-dividers-fix</key>
-				<data>AQAAAA==</data>
-				<key>#framebuffer-con2-alldata</key>
-				<data>AgYJAAAEAACHAQAA</data>
-				<key>#framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>#framebuffer-con3-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>#framebuffer-portcount</key>
-				<data>BAAAAA==</data>
-				<key>#framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-				<key>AAPL,ig-platform-id</key>
-				<data>CAAuCg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device-id</key>
-				<data>EgQAAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
-				<key>dpcd-max-link-rate</key>
-				<data>HgAAAA==</data>
-				<key>enable-dpcd-max-link-rate-fix</key>
-				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-alldata</key>
-				<data>AAAIAAIAAAAwAAAAAQUJAAAEAAAHAQAAAgQKAAAEAAAHAQAA</data>
-				<key>framebuffer-con0-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-patch0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-patch0-find</key>
-				<data>CAAuCgEDAwMAAAAEAAAgAgAAUAEAAABgbAUAAGwFAAAAAAAAAAAAAAAACAACAAAAMAAAAA==</data>
-				<key>framebuffer-patch0-replace</key>
-				<data>CAAuCgEDAwMAAAAKAAAAAwAAAAMAAABgbAUAAGwFAAAAAAAAAAAAAAAACAACAAAAMAAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>igfxfw</key>
-				<data>AgAAAA==</data>
 				<key>model</key>
 				<string>Intel HD Graphics 4600</string>
 			</dict>
@@ -753,7 +694,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
@@ -839,13 +780,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
+				<string>BrcmFirmwareData.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALC</string>
+				<string>Contents/MacOS/BrcmFirmwareData</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -882,6 +823,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BrcmPatchRAM3</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -947,24 +906,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleBacklightFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleBacklightFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -983,65 +924,11 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>DisplayMergeNub.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>DisplayMergeNub</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>19.9.9</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>NullEthernet.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NullEthernet</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>EnableLidWake.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/EnableLidWake</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
@@ -1059,7 +946,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CServices</string>
 				<key>MaxKernel</key>
@@ -1077,7 +964,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooGPIO</string>
 				<key>MaxKernel</key>
@@ -1095,7 +982,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2C</string>
 				<key>MaxKernel</key>
@@ -1113,7 +1000,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CHID</string>
 				<key>MaxKernel</key>
@@ -1145,15 +1032,33 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Display-4d10-1431.kext</string>
+				<string>NullEthernet.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NullEthernet</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>EnableLidWake.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/EnableLidWake</string>
 				<key>MaxKernel</key>
-				<string>19.9.9</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -1200,7 +1105,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/corecapture</string>
 				<key>Identifier</key>
@@ -1214,368 +1119,7 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Enable 160MB DVMT (48MB Framebuffer, 48MB Cursor),  HDMI/DP @ 0105, 0204 (c) syscl</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>CAAuCgEDAwMAAAAEAAAgAgAAUAEAAABgbAUAAGwFAAAAAAAAAAAAAAAACAACAAAAMAAAAA==</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>CAAuCgEDAwMAAAAKAAAAAwAAAAMAAABgbAUAAGwFAAAAAAAAAAAAAAAACAACAAAAMAAAAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>eDP, port 0000, 0x0a260005 0x0a260006 0x0a2e0008 0x0a1600c0</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>AAAIAAIAAAAwAAAAAQUJAAAEAAA=</data>
-				<key>Identifier</key>
-				<string>AppleIntelFramebufferAzul</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>Replace</key>
-				<data>AAAIAAQAAAAwAAAAAQUJAAAEAAA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
-				<key>Comment</key>
-				<string>Disable RTC wake scheduling</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleRTC</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>Replace</key>
-				<data>ww==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_AcpiOsVprintf</string>
-				<key>Comment</key>
-				<string>Disable ACPI logging</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleACPIPlatform</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>18.5.0</string>
-				<key>MinKernel</key>
-				<string>18.5.0</string>
-				<key>Replace</key>
-				<data>ww==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>__ZN11BCM5701Enet14getAdapterInfoEv</string>
-				<key>Comment</key>
-				<string>Broadcom BCM57785 patch</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>6AAA//9miYMABQAA</data>
-				<key>Identifier</key>
-				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>/wAA////////////</data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>uLQWAABmiYMABQAA</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_panic</string>
-				<key>Comment</key>
-				<string>Send panic string to serial port</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4XbdN/r/g==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_kernel_debug_string_early</string>
-				<key>Comment</key>
-				<string>Send early prints to serial port</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4XbdN/D</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_vstart</string>
-				<key>Comment</key>
-				<string>Print K and dead loop</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>kernel</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>sUtmuv0D7KggdPtmuvgDiMjusQpmuv0D7KggdPtmuvgDiMju6/4=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Framebuffer for 4K display</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>AwAiDQADwMAAAACAAAwAQAAAAAAAABgmRQ==</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>AwAiDQADwMAAAAEAAAgAgAAAAAAAACAmRQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>Enable 160MB DVMT (48MB Framebuffer, 48MB Cursor),  HDMI/DP @ 0105, 0204 (c) syscl</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>CAAuCgEDAwMAAAAEAAAgAgAAUAEAAABgbAUAAGwFAAAAAAAAAAAAAAAACAACAAAAMAAAAA==</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>CAAuCgEDAwMAAAAKAAAAAwAAAAMAAABgbAUAAGwFAAAAAAAAAAAAAAAACAACAAAAMAAAAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Base</key>
-				<string></string>
-				<key>Comment</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -1644,7 +1188,7 @@
 			<key>PickerMode</key>
 			<string>Builtin</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1657,7 +1201,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1665,7 +1209,7 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483648</integer>
+			<integer>0</integer>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -1767,10 +1311,6 @@
 			<dict>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
-				<key>##boot-args</key>
-				<string>-v -wegnoegpu -cdfon debug=0x100 keepsyms=1 alcid=27 dart=0 vsmcgen=1</string>
-				<key>#boot-args</key>
-				<string>-cdfon -igfxcdc -igfxcflbklt=0 -igfxblr -wegnoegpu dart=0 alcid=27 brcmfx-driver=2 brcmfx-country=#a #agdpmod=vit9696 darkwake=1 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1778,9 +1318,7 @@
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>boot-args</key>
-				<data>AA4ADgDaAAAKDA0nCwwP8wAAAC0KAAoOAQAAAA==</data>
-				<key></key>
-				<data></data>
+				<string>-wegnoegpu igfxfw=2 dart=0 alcid=27 brcmfx-driver=2 brcmfx-country=#a darkwake=1</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
