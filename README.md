@@ -21,10 +21,10 @@ Works:
 + 4k/60Hz internal screen - BigSur / no screen flickering
 + light sensor
 + SD card reader
++ screen brightness (+ keys)
 
 Does not work yet:
 - Touchpad issues
-- screen brightness (+ keys)
 
 Did not check it yet:
 - iMessage, FaceTime (did not chacked it)
