@@ -25,7 +25,10 @@ Works:
 Does not work yet:
 - Touchpad issues
 - screen brightness (+ keys)
+
+Did not check it yet:
 - iMessage, FaceTime (did not chacked it)
+- Sleeping, Lid (you can enable EnableLidWake.kext
 
 Known issues:
 - sound issues - system startup with headset plug in causes internal sound not working
