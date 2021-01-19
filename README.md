@@ -4,31 +4,32 @@ This is a OpenCore EFI folder for Dell m3800 with 4k display (2015 model) screen
 [#f03c15]So far that 
 
 Works:
-+ 3D accelelation (2GB ram),
++ 3D accelelation (2GB vram + framebuffer patched: 160MB bios, 48MB),
 + Wifi (switched to compatible one),
-+ Blutooth,
++ Blutooth (patched),
 + Sound keys (F1-F3 keys)
 + HDMI/DVI video
 + HDMI audio
 + DVI video/audio (4k/60Hz)
 + Keyboard
-+ Tought pad (fully)
 + Battery
 + Part of multimedia keys (volume)
-+ screen brightness (+ keys)
 + night shift
 + camera
 + disabled Nvidia
 + Toughable screen
-+ 4k/60Hz internal screen - BigSur
++ 4k/60Hz internal screen - BigSur / no screen flickering
++ light sensor
++ SD card reader
 
 Does not work yet:
-- SD card reader
+- Touchpad issues
+- screen brightness (+ keys)
 - iMessage, FaceTime (did not chacked it)
-- sound issues ()
 
 Known issues:
-- screen flickes while using scalable resolutions on internal laptop screen full 4k - try to switch to somee less then 4k or tweek the refresh rate
+- sound issues - system startup with headset plug in causes internal sound not working
+- touchpad - driver loads, shows the present of the touchpad in the system settings, but cursor does not move
 
 OpenCore version:
 - 0.6.5
