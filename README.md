@@ -22,9 +22,10 @@ Works:
 + light sensor
 + SD card reader
 + screen brightness (+ keys)
++ Touchpad with guestures 
 
 Does not work yet:
-- Touchpad issues
+
 
 Did not check it yet:
 - iMessage, FaceTime (did not chacked it)
