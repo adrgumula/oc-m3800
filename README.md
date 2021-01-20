@@ -24,16 +24,15 @@ Works:
 + screen brightness (+ keys)
 + Touchpad with guestures 
 
-Does not work yet:
-
+Does not work yet/Still to do:
+- replace USBInjectAll.kext to full USB patch 
 
 Did not check it yet:
 - iMessage, FaceTime (did not chacked it)
-- Sleeping, Lid (you can enable EnableLidWake.kext
+- Sleeping, Lid (you can enable EnableLidWake.kext)
 
 Known issues:
 - sound issues - system startup with headset plug in causes internal sound not working
-- touchpad - driver loads, shows the present of the touchpad in the system settings, but cursor does not move
 
 OpenCore version:
 - 0.6.5
