@@ -528,7 +528,7 @@
 				<string>Audio device</string>
 				<key>layout-id</key>
 				<integer>27</integer>
-				<key>model</key>
+				<key>#model</key>
 				<string>Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
