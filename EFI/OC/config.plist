@@ -82,7 +82,7 @@
 				<key>Comment</key>
 				<string>PrtScr disables touchpad</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PS2K.aml</string>
 			</dict>
@@ -96,11 +96,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Reset USB contollers - USBMap generated</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USB-Reset.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix instance wake on AC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -292,6 +308,32 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>R1BSVwI=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFBSVwI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -374,7 +416,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,0,0</string>
@@ -383,7 +425,7 @@
 				<key>model</key>
 				<string>Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,1,0</string>
@@ -396,12 +438,14 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,20,0</string>
+				<key>acpi-wake-typ</key>
+				<data>AQ==</data>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family USB xHCI</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,22,0</string>
@@ -414,12 +458,14 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,26,0</string>
+				<key>acpi-wake-typ</key>
+				<data>AQ==</data>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family USB EHCI #2</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0</string>
@@ -428,7 +474,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family PCI Express Root Port #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x2)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,2</string>
@@ -443,12 +489,14 @@
 				<string>Internal@0,28,2/0,0</string>
 				<key>brcmfx-country</key>
 				<string>#a</string>
+				<key>brcmfx-driver</key>
+				<integer>2</integer>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
 				<string>BCM4352 802.11ac Wireless Network Adapter</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x3)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,3</string>
@@ -466,7 +514,7 @@
 				<key>model</key>
 				<string>RTS5249 PCI Express Card Reader</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x4)</key>
+			<key>#PciRoot(0x0)/Pci(0x1C,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,4</string>
@@ -479,12 +527,14 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,29,0</string>
+				<key>acpi-wake-typ</key>
+				<data>AQ==</data>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family USB EHCI #1</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,0</string>
@@ -493,7 +543,7 @@
 				<key>model</key>
 				<string>HM87 Express LPC Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,2</string>
@@ -502,7 +552,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
@@ -511,7 +561,7 @@
 				<key>model</key>
 				<string>8 Series/C220 Series Chipset Family SMBus Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
+			<key>#PciRoot(0x0)/Pci(0x1F,0x6)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,6</string>
@@ -522,16 +572,18 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x3,0x0)</key>
 			<dict>
+				<key>#model</key>
+				<string>Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller</string>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,3,0</string>
 				<key>device_type</key>
 				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>layout-id</key>
 				<integer>27</integer>
-				<key>model</key>
-				<string>Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x4,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,4,0</string>
@@ -860,9 +912,27 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1217,7 +1287,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1378,7 +1448,7 @@
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>boot-args</key>
-				<string>-wegnoegpu igfxfw=2 dart=0 alcid=27 brcmfx-driver=2 brcmfx-country=#a darkwake=1</string>
+				<string>-wegnoegpu darkwake=0 igfxfw=2 dart=0 alcid=27 brcmfx-driver=2 brcmfx-country=#a</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
