@@ -24,18 +24,27 @@ Works:
 + screen brightness (+ keys)
 + Touchpad with guestures 
 
+Should work, but not fully tested yet:
+- sleep & wake on battery and AC power,
+- Lid close sleep & wakesup after Lid open
+- Deep sleep
+
 Does not work yet/Still to do:
 - replace USBInjectAll.kext to full USB patch 
 
 Did not check it yet:
-- iMessage, FaceTime (did not chacked it)
-- Sleeping, Lid (you can enable EnableLidWake.kext)
+- iMessage, FaceTime
 
 Known issues:
 - sound issues - system startup with headset plug in causes internal sound not working
+- after wakeup from sleep performace issues occures
 
 OpenCore version:
 - 0.6.5
+
+Supports clean Apple "Software update.." 
+- ![image](https://user-images.githubusercontent.com/70687019/111694675-781f6d80-8832-11eb-981b-f870b8d9d3ce.png)
+
  
 OpenCore tutorial:
 https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#starting-point
