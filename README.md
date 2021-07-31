@@ -11,6 +11,7 @@ Works:
 + HDMI/DVI video
 + HDMI audio
 + DVI video/audio (4k/60Hz)
++ 60Hz in most of the hi-res sceens (known bug: 4k/60Hz setting for internal screen starts flickering for unknown reaseons)
 + Keyboard
 + Battery
 + Part of multimedia keys (volume)
@@ -18,11 +19,10 @@ Works:
 + camera
 + disabled Nvidia
 + Toughable screen
-+ 4k/60Hz internal screen - BigSur / no screen flickering
-+ light sensor
 + SD card reader
 + screen brightness (+ keys)
 + Touchpad with guestures 
++ fullly USB patch -> replaced USBInjectAll.kext
 
 Should work, but not fully tested yet:
 - sleep & wake on battery and AC power,
@@ -30,17 +30,18 @@ Should work, but not fully tested yet:
 - Deep sleep
 
 Does not work yet/Still to do:
-- replace USBInjectAll.kext to full USB patch 
+= light sensor
 
 Did not check it yet:
 - iMessage, FaceTime
 
 Known issues:
+- 4k/60Hz internal screen - flickers - solution to to install SwitchResX app and create the custom resoltion 4k with 57Hz refresh rate (repeat it for the scanale ref)
 - sound issues - system startup with headset plug in causes internal sound not working
 - after wakeup from sleep performace issues occures
 
 OpenCore version:
-- 0.6.5
+- 0.7.1
 
 Supports clean Apple "Software update.." 
 - ![image](https://user-images.githubusercontent.com/70687019/111694675-781f6d80-8832-11eb-981b-f870b8d9d3ce.png)

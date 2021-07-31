@@ -1,0 +1,5 @@
+Open terminal input
+defaults write com.apple.dock largesize -int 192; killall Dock
+
+
+To adjust icon side change the -int XXX value (bigger number = larger icon)
