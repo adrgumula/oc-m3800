@@ -1,4 +1,4 @@
-# Dell m3800 OpenCore
+# Dell m3800 OpenCore [No longer supported by the author]
 
 This is a OpenCore EFI folder for Dell m3800 with 4k display (2015 model) screen ready to work with 10.15.x and 11.x
 [#f03c15]So far that 
@@ -30,7 +30,7 @@ Should work, but not fully tested yet:
 - Deep sleep
 
 Does not work yet/Still to do:
-= light sensor
+- light sensor
 
 Did not check it yet:
 - iMessage, FaceTime
